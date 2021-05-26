@@ -3,16 +3,16 @@
 This repository contains the implementation of following two basic financial tools:  
 * The first one is a personal finance planner that will allow users to visualize their savings composed by investments in shares and cryptocurrencies to assess if they have enough money as an emergency fund.  
 
-* The second tool is a retirement planning tool that uses the Alpaca API to fetch historical closing prices for a retirement portfolio composed of stocks and bonds, then run Monte Carlo simulations to project the portfolio performance at 30 years. Monte Carlo simulated data is then used to calculate the expected portfolio returns given a specific initial investment amount.
+* The second tool is a retirement planning tool that uses the **Alpaca API** to fetch historical closing prices for a retirement portfolio composed of stocks and bonds, then run **Monte Carlo simulations** to project the portfolio performance at 30 years. Monte Carlo simulated data is then used to calculate the expected portfolio returns given a specific initial investment amount.
 
 ---
 
 ## Following concepts are used:  
-* API call to get external stock trading data into JSON format for a particular date
-* Slicing JSON data to get the required information
-* API call to get years of past stock trading data and load into Pandas DataFrame to run Monte Carlo simulation
-* Monte Carlo simulation to predict portfolio performance at a specific confidence interval
-* Plotting simulation result and corresponding probability distribution
+* **API call** to get external stock trading data into JSON format for a particular date
+* **Slicing JSON** data to get the required information
+* API call to get years of past stock trading data and load into **Pandas DataFrame** to run Monte Carlo simulation
+* **Monte Carlo simulation** to predict portfolio performance at a specific confidence interval
+* **Plotting** simulation result and corresponding probability distribution
 
 ---
 
@@ -32,7 +32,7 @@ The documentation for these APIs can be found via the following links:
 ---
 
 ## How to run the script <br>
-Clone the entire "whale-analysis" repository into a local folder by issuing the following command from gitbash  
+Clone the entire "financial-planner" repository into a local folder by issuing the following command from gitbash  
 ```
 $git clone https://github.com/Roy-Tapas/financial-planner.git
 ```
